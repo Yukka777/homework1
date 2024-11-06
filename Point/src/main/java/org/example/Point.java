@@ -1,3 +1,5 @@
+package org.example;
+
 public class Point implements Movable{
     private int x;
     private int y;
@@ -19,23 +21,22 @@ public class Point implements Movable{
     }
     @Override
     public void moveUp() {
-        this.y = y+1;
+        setY(this.y+1);
     }
     @Override
     public void moveDown() {
-        this.y = y-1;
+        setY(this.y-1);
     }
     @Override
     public void moveLeft() {
-        this.x = x-1;
+        setX(this.x-1);
     }
     @Override
     public void moveRight() {
-        this.x = x+1;
+        setX(this.x+1);
     }
-
     @Override
     public void print() {
-        System.out.println(this.x + " " + this.y);
+        System.out.println(this.x + this.y);
     }
 }
