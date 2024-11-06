@@ -1,4 +1,4 @@
-package org.example;
+package Point.src.main.java.org.example;
 
 public interface Movable {
     public void moveUp();

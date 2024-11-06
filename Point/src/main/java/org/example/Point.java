@@ -1,4 +1,4 @@
-package org.example;
+package Point.src.main.java.org.example;
 
 public class Point implements Movable{
     private int x;
